@@ -1,0 +1,8 @@
+[wokwi]
+version = 1
+firmware = "esp1/.pio/build/esp32dev/firmware.bin"
+elf = "esp1/.pio/build/esp32dev/firmware.elf"
+
+[wokwi.parts.esp2]
+firmware = "esp2/.pio/build/esp32dev/firmware.bin"
+elf = "esp2/.pio/build/esp32dev/firmware.elf"
